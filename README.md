@@ -1,6 +1,61 @@
-# React + TypeScript + Vite
+# Cryptonite 🪙
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time cryptocurrency tracking dashboard built with React, TypeScript, and Redux Toolkit.
+
+## 🔗 Links
+
+- **GitHub Repository:** https://github.com/DoronPrigal/Cryptonite-project
+- **Live Demo:** https://doronprigal.github.io/Cryptonite-project/
+
+## ✨ Features
+
+- 📊 Top 100 cryptocurrencies from CoinGecko API
+- 🔍 Real-time client-side search
+- ⭐ Track up to 5 coins simultaneously (persisted in localStorage)
+- 💱 Price info in USD / EUR / ILS
+- 📈 Live price chart updating every second (CryptoCompare API)
+- 🤖 AI investment recommendations via ChatGPT
+- 🎨 Parallax hero header
+- 📱 Fully responsive
+
+## 🛠 Tech Stack
+
+- React 18 + TypeScript
+- Vite
+- Redux Toolkit
+- React Router v6
+- Recharts
+- CoinGecko API
+- CryptoCompare API
+- OpenAI ChatGPT API
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Create .env file from template
+cp .env.example .env
+# Add your API keys to .env
+
+# Run development server
+npm run dev
+```
+
+## 🔑 Environment Variables
+
+```
+VITE_COINGECKO_API_KEY=your_coingecko_demo_key
+VITE_OPENAI_API_KEY=your_openai_api_key
+```
+
+Get a free CoinGecko Demo API key at: https://www.coingecko.com/en/api
+
+## 👨‍💻 Developer
+
+**Doron Prigal** – Full Stack Web Developer, John Bryce Bootcamp 2026
+
 
 Currently, two official plugins are available:
 
