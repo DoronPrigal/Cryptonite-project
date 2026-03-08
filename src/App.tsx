@@ -9,7 +9,7 @@ import "./App.css";
 // הגדרת ה-Router עם 4 דפים + Navbar משותף
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Cryptonite-project">
       <Navbar />
       <div className="app-content">
         <Routes>
